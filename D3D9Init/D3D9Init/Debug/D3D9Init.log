@@ -1,0 +1,19 @@
+﻿Build started 2016/4/3 1:30:03.
+     1>Project "D:\Gits\DirectX\D3D9Init\D3D9Init\D3D9Init.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\D3D9Init.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\vs2013\VC\bin\CL.exe /c /I"F:\公司\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt d3dUtility.cpp
+         d3dUtility.cpp
+       Link:
+         E:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Gits\DirectX\D3D9Init\Debug\D3D9Init.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" /LIBPATH:"F:\公司\Visual Leak Detector\lib\Win32" dxerr.lib dxguid.lib d3d9.lib d3dx9d.lib d3dx10d.lib winmm.lib comctl32.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Gits\DirectX\D3D9Init\Debug\D3D9Init.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Gits\DirectX\D3D9Init\Debug\D3D9Init.lib" /MACHINE:X86 Debug\d3dInit.obj
+         Debug\d3dUtility.obj
+         D3D9Init.vcxproj -> D:\Gits\DirectX\D3D9Init\Debug\D3D9Init.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\D3D9Init.tlog\unsuccessfulbuild".
+         Touching "Debug\D3D9Init.tlog\D3D9Init.lastbuildstate".
+     1>Done Building Project "D:\Gits\DirectX\D3D9Init\D3D9Init\D3D9Init.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52
